@@ -1,0 +1,97 @@
+.custom-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    
+    
+}
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(8px); /* Apply a blur effect to the background */
+}
+
+
+.inputs {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.inputs input {
+    font-size: 18px; /* Adjust the size according to your preference */
+    padding: 10px;   /* Adjust padding if needed */
+    margin: 5px;     /* Adjust margin if needed */
+    /* Add other styling properties as needed */
+}
+.modal-buttons{
+    display: flex;
+    margin-left: 1014px;
+    margin-top:38px;
+    gap:12.5px;
+    font-size: 17px;
+
+}
+.addpatient{
+    background-color: green;
+    
+}
+.closeAddmodel{
+    background-color:red;
+}
+
+.patientList {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .patientsContainer {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  
+  .patientItem {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px; /* Adjust the width as needed */
+  }
+  
+  .patientInfo {
+    flex: 1; /* Adjust the ratio of patientInfo to patientActions */
+  }
+  
+  .patientActions {
+    display: flex;
+    flex: 1;
+    text-align: right;
+    gap:10px;
+  }
+  
+  button {
+    margin-left: 5px;
+  }
+  .addNewPatient{
+    background-color: green;
+    position: absolute;
+  }
+  
